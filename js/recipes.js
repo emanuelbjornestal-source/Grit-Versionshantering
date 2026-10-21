@@ -46,6 +46,66 @@ const recipes = [
         ]
     },
     {
+        id: 3,
+        name: "Laxpasta",
+        category: "Fisk",
+        description: "Krämig pasta med rökt lax och dill.",
+        time: "20 min",
+        image: "https://placehold.co/600x400?text=Laxpasta",
+        ingredients: ["300 g pasta", "150 g rökt lax", "2 dl matlagningsgrädde", "1 knippe dill"],
+        instructions: [
+            "Koka pastan enligt förpackningen.",
+            "Värm grädden i en panna.",
+            "Tillsätt lax och dill och låt värmas igenom.",
+            "Blanda med pastan och servera."
+        ]
+    },
+    {
+        id: 4,
+        name: "Äppelkaka",
+        category: "Efterrätt",
+        description: "Syrlig äppelkaka som passar bra med vaniljsås.",
+        time: "50 min",
+        image: "https://placehold.co/600x400?text=Appelkaka",
+        ingredients: ["4 äpplen", "100 g smör", "1,5 dl socker", "2 dl vetemjöl", "1 tsk kanel"],
+        instructions: [
+            "Skiva äpplena och lägg dem i en smord form.",
+            "Smält smöret och blanda med socker och mjöl.",
+            "Fördela smeten över äpplena och strö över kanel.",
+            "Grädda i 200 grader i cirka 30 minuter."
+        ]
+    },
+    {
+        id: 5,
+        name: "Pannkakor",
+        category: "Efterrätt",
+        description: "Tunna pannkakor med sylt och grädde.",
+        time: "30 min",
+        image: "https://placehold.co/600x400?text=Pannkakor",
+        ingredients: ["3 dl vetemjöl", "6 dl mjölk", "3 ägg", "smör till stekning"],
+        instructions: [
+            "Vispa ihop mjöl och mjölk till en slät smet.",
+            "Vispa i äggen och låt smeten vila en stund.",
+            "Stek tunna pannkakor i smör.",
+            "Servera med sylt och grädde."
+        ]
+    },
+    {
+        id: 6,
+        name: "Vegetarisk chili",
+        category: "Vegetariskt",
+        description: "Mustig chili på bönor och tomat.",
+        time: "40 min",
+        image: "https://placehold.co/600x400?text=Chili",
+        ingredients: ["1 burk kidneybönor", "1 burk krossade tomater", "1 paprika", "1 gul lök", "1 tsk chilipulver"],
+        instructions: [
+            "Fräs lök och paprika.",
+            "Tillsätt bönor, tomater och chilipulver.",
+            "Låt sjuda i 25 minuter.",
+            "Servera med ris."
+        ]
+    },
+    {
         id: 7,
         name: "Stekt strömming",
         category: "Fisk",
