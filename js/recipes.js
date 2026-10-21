@@ -45,6 +45,36 @@ const recipes = [
             "Mixa om du vill ha en len soppa. Smaka av med salt och peppar."
         ]
     },
+        {
+        id: 3,
+        name: "Laxpasta",
+        category: "Fisk",
+        description: "Krämig pasta med rökt lax och dill.",
+        time: "20 min",
+        image: "https://placehold.co/600x400?text=Laxpasta",
+        ingredients: ["300 g pasta", "150 g rökt lax", "2 dl matlagningsgrädde", "1 knippe dill"],
+        instructions: [
+            "Koka pastan enligt förpackningen.",
+            "Värm grädden i en panna.",
+            "Tillsätt lax och dill och låt värmas igenom.",
+            "Blanda med pastan och servera."
+        ]
+    },
+    {
+        id: 4,
+        name: "Äppelkaka",
+        category: "Efterrätt",
+        description: "Syrlig äppelkaka som passar bra med vaniljsås.",
+        time: "50 min",
+        image: "https://placehold.co/600x400?text=Appelkaka",
+        ingredients: ["4 äpplen", "100 g smör", "1,5 dl socker", "2 dl vetemjöl", "1 tsk kanel"],
+        instructions: [
+            "Skiva äpplena och lägg dem i en smord form.",
+            "Smält smöret och blanda med socker och mjöl.",
+            "Fördela smeten över äpplena och strö över kanel.",
+            "Grädda i 200 grader i cirka 30 minuter."
+        ]
+    },
     {
         id: 5,
         name: "Pannkakor",
@@ -74,5 +104,6 @@ const recipes = [
             "Låt sjuda i 25 minuter.",
             "Servera med ris."
         ]
-    }
+    },
+
 ];
