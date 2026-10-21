@@ -44,5 +44,35 @@ const recipes = [
             "Koka i cirka 20 minuter tills allt är mjukt.",
             "Mixa om du vill ha en len soppa. Smaka av med salt och peppar."
         ]
+    },
+    {
+        id: 5,
+        name: "Pannkakor",
+        category: "Efterrätt",
+        description: "Tunna pannkakor med sylt och grädde.",
+        time: "30 min",
+        image: "https://placehold.co/600x400?text=Pannkakor",
+        ingredients: ["3 dl vetemjöl", "6 dl mjölk", "3 ägg", "smör till stekning"],
+        instructions: [
+            "Vispa ihop mjöl och mjölk till en slät smet.",
+            "Vispa i äggen och låt smeten vila en stund.",
+            "Stek tunna pannkakor i smör.",
+            "Servera med sylt och grädde."
+        ]
+    },
+    {
+        id: 6,
+        name: "Vegetarisk chili",
+        category: "Vegetariskt",
+        description: "Mustig chili på bönor och tomat.",
+        time: "40 min",
+        image: "https://placehold.co/600x400?text=Chili",
+        ingredients: ["1 burk kidneybönor", "1 burk krossade tomater", "1 paprika", "1 gul lök", "1 tsk chilipulver"],
+        instructions: [
+            "Fräs lök och paprika.",
+            "Tillsätt bönor, tomater och chilipulver.",
+            "Låt sjuda i 25 minuter.",
+            "Servera med ris."
+        ]
     }
 ];
