@@ -45,7 +45,7 @@ const recipes = [
             "Mixa om du vill ha en len soppa. Smaka av med salt och peppar."
         ]
     },
-        {
+    {
         id: 3,
         name: "Laxpasta",
         category: "Fisk",
@@ -105,5 +105,33 @@ const recipes = [
             "Servera med ris."
         ]
     },
-
+    {
+        id: 7,
+        name: "Stekt strömming",
+        category: "Fisk",
+        description: "Panerad strömming med potatismos.",
+        time: "35 min",
+        image: "https://placehold.co/600x400?text=Stromming",
+        ingredients: ["8 strömmingsfiléer", "1 dl rågmjöl", "smör till stekning", "potatismos"],
+        instructions: [
+            "Salta filéerna och vänd dem i rågmjölet.",
+            "Stek i smör tills de är gyllene.",
+            "Servera med potatismos och lingon."
+        ]
+    },
+    {
+        id: 8,
+        name: "Kycklinggryta",
+        category: "Kött",
+        description: "Len gryta med kyckling och curry.",
+        time: "40 min",
+        image: "https://placehold.co/600x400?text=Kyckling",
+        ingredients: ["500 g kycklingfilé", "2 dl grädde", "1 msk currypulver", "1 gul lök"],
+        instructions: [
+            "Skär kycklingen i bitar och bryn den.",
+            "Fräs löken och rör ner currypulvret.",
+            "Tillsätt grädde och kyckling och koka i 15 minuter.",
+            "Servera med ris."
+        ]
+    }
 ];
