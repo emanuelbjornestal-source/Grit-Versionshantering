@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smakriket</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <h1 class="logo">Smakriket</h1>
+        <nav>
+            <a href="#hero">Hem</a>
+            <a href="#recept">Recept</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <h2>Välkommen till Smakriket</h2>
+        <p>Bläddra bland våra favoritrecept, filtrera efter kategori och hitta kvällens middag.</p>
+        <a href="#recept" class="hero-button">Se recepten</a>
+    </section>
+
+    <section id="recept" class="recipes">
+        <div id="filter-buttons" class="filter-buttons"></div>
+        <div id="recipe-grid" class="recipe-grid"></div>
+    </section>
+
+    <footer id="kontakt" class="site-footer">
+        <p><strong>Smakriket</strong> – recept för alla smaker</p>
+        <p>Kontakt: info@smakriket.se | 090-123 45 67 | Storgatan 1, Umeå</p>
+    </footer>
+    <div id="modal" class="modal" aria-hidden="true">
+        <div class="modal-content">
+            <button id="modal-close" class="modal-close" aria-label="Stäng">&times;</button>
+            <img id="modal-image" src="" alt="">
+            <div class="modal-body">
+                <span id="modal-tag" class="tag"></span>
+                <h2 id="modal-title"></h2>
+                <p id="modal-time" class="time"></p>
+                <h3>Ingredienser</h3>
+                <ul id="modal-ingredients"></ul>
+                <h3>Instruktioner</h3>
+                <ol id="modal-instructions"></ol>
+            </div>
+        </div>
+    </div>
+    <script src="js/recipes.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
