@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smakriket</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <h1 class="logo">Smakriket</h1>
+        <nav>
+            <a href="#hero">Hem</a>
+            <a href="#recept">Recept</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <h2>Välkommen till Smakriket</h2>
+        <p>Bläddra bland våra favoritrecept, filtrera efter kategori och hitta kvällens middag.</p>
+        <a href="#recept" class="hero-button">Se recepten</a>
+    </section>
+
+    <section id="recept" class="recipes">
+        <div id="filter-buttons" class="filter-buttons"></div>
+        <div id="recipe-grid" class="recipe-grid"></div>
+    </section>
+
+    <footer id="kontakt" class="site-footer">
+        <p><strong>Smakriket</strong> – recept för alla smaker</p>
+        <p>Kontakt: info@smakriket.se | 090-123 45 67 | Storgatan 1, Umeå</p>
+    </footer>
+
+    <script src="js/recipes.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
